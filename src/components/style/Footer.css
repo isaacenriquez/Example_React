@@ -1,0 +1,18 @@
+.Footer{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: rgb(135, 233, 250);
+
+    position: absolute;
+    bottom: 0;
+    z-index: 100;
+}
+
+.Footer p{
+    padding-top: 10px;
+}
