@@ -3,7 +3,8 @@ import { BrowserRouter, Route, Switch } from "react-router-dom"
 import Layout from "./pages/Layout/Layout"
 import Main from "./pages/main/main"
 import NewBadge from "./pages/NewBadge/NewBadge"
-import login from "./pages/login/login"
+import Login from "./pages/login/login"
+import Signin from "./pages/signin/signin"
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
         <Switch>
           <Route exact path="/" component={Main}></Route>
           <Route exact path="/new" component={NewBadge}></Route>
-          <Route exact path="/login" component={login}></Route>
+          <Route exact path="/login" component={Login}></Route>
+          <Route exact path="/signin" component={Signin}></Route>
           <Route component={Error}></Route>
         </Switch>
       </Layout>
