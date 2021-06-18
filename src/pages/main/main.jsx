@@ -1,6 +1,7 @@
 import React from "react"
 import Hero from "../../components/Hero"
 import Button from "../../components/MainButton"
+import Footer from "../../components/Footer"
 import "./main.css"
 
 const Main = props => {

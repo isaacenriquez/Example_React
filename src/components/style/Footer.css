@@ -8,7 +8,7 @@
     color: black;
     background-color: rgb(135, 233, 250);
 
-    position: static;
+    position: absolute;
     bottom: 0;
     z-index: 100;
 }
