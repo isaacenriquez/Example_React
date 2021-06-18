@@ -1,5 +1,4 @@
 import React from "react"
-import Heroimg from "../images/Heroimg.jpg"
 import "./style/Hero.css"
 
 const Hero = props =>{
@@ -8,11 +7,11 @@ const Hero = props =>{
             <div className="Hero">
                 <div className="Hero__color_filter" style={{height:props.h}}></div>
                 <div className="Hero__img" style={{height:props.h}}>
-                    <img src={Heroimg} alt="o no" />
+                    <img src={"http://parksadventure.com/wp-content/uploads/2017/10/header-image-1-2.png"} alt="o no" />
                 </div>
             </div>
         </React.Fragment>
     );
 }
 
-export default Hero;
+export default Hero

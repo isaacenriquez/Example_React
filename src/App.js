@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Route, Switch } from "react-router-dom"
 import Layout from "./pages/Layout/Layout"
-import Main from "../src/pages/main/main"
+import Main from "./pages/main/main"
 import NewBadge from "./pages/NewBadge/NewBadge"
 import Login from "./pages/login/login"
 import Signin from "./pages/signin/signin"
